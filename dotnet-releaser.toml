@@ -20,5 +20,3 @@ publish = false
 publish = true
 rid = ["linux-x64"]
 kinds = ["zip", "tar"]
-#[changelog]
-#publish = false
