@@ -36,4 +36,9 @@ msbuild.wrn
 # Visual Studio 2015
 .vs/
 
-*/obj/*
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
