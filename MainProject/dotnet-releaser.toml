@@ -1,0 +1,24 @@
+# configuration file for dotnet-releaser
+[msbuild]
+project = "MainProject.sln"
+[github]
+user = "caiogranero"
+repo = "dotnet-releaser-test"
+[test]
+enable = false
+run_tests_for_debug = false
+run_tests = false
+[coverage]
+enable = false
+[coveralls]
+publish = false
+[nuget]
+publish = false
+[brew]
+publish = false
+[[pack]]
+publish = true
+rid = ["linux-x64"]
+kinds = ["zip", "tar"]
+#[changelog]
+#publish = false
