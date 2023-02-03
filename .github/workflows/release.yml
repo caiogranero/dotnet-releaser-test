@@ -2,7 +2,8 @@ name: releaser
 
 on:
   push:
-    main
+    branches:
+      - main
 
 jobs:
   build:
