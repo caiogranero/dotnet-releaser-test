@@ -2,8 +2,12 @@ name: releaser
 
 on:
   push:
-    branches:
-      - main
+    paths-ignore:
+    - 'doc/**'
+    - 'img/**'
+    - 'changelog.md'
+    - 'readme.md'
+  pull_request:
 
 jobs:
   build:
